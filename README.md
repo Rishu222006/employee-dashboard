@@ -1,12 +1,78 @@
-# React + Vite
+# Description:
+    - This project is a simple Frontend based project showing the management of an employee daashboard. 
+    - My primary aim for creating this project is to showcase my skills of managing login and auth control.
+    - The UI has been kept simple and clean.
+    - I hope whoever is reading this will like this project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    *** To run ***
+        - As the project is yet not complete clone the repo and in you root directory type following:
+            npm install
+            npm run dev
 
-Currently, two official plugins are available:
+    
+# Tech Stack:
+    - HTML
+    - CSS  
+    - JavaScript
+    - React.js
+    - Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# File Structure:
 
-## Expanding the ESLint configuration
+📦 employee_dashboard
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── vite.config.js
+├── 📂 public
+└── 📂 src
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── tailwind.css
+    ├── 📂 assets
+    ├── 📂 components
+    │   ├── 📂 Auth
+    │   │   └── Login.jsx
+    │   ├── 📂 Dashboard
+    │   │   ├── AdminDashboard.jsx
+    │   │   └── EmployeeDashboard.jsx
+    │   └── 📂 TaskList
+    │       ├── CompleteTask.jsx
+    │       ├── FailedTask.jsx
+    │       ├── NewTask.jsx
+    │       ├── TaskAccept.jsx
+    │       └── TaskList.jsx
+    ├── 📂 context
+    │   ├── AuthContext.jsx
+    │   └── Authprovider.jsx
+    ├── 📂 other
+    │   ├── AllTask.jsx
+    │   ├── CreateTask.jsx
+    │   ├── Header.jsx
+    │   └── TaskNumber.jsx
+    └── 📂 utils
+        ├── employees.json
+        └── localstorage.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Directory Structure Explanation
+
+- `src/`: Main source code directory
+  - `components/`: React components organized by feature
+    - `Auth/`: Authentication related components
+    - `Dashboard/`: Dashboard components for admin and employees
+    - `TaskList/`: Components for task management
+  - `context/`: React context providers and consumers
+  - `other/`: Miscellaneous components
+  - `utils/`: Utility functions and data files
+
+## Configuration Files
+- `eslint.config.js`: ESLint configuration
+- `postcss.config.js`: PostCSS configuration
+- `tailwind.config.js`: Tailwind CSS configuration
+- `vite.config.js`: Vite build tool configuration
