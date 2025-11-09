@@ -5,9 +5,12 @@
     - I hope whoever is reading this will like this project.
 
     *** To run ***
-        - As the project is yet not complete clone the repo and in you root directory type following:
-            npm install
-            npm run dev
+         As the project is yet not complete you can preview it by following methods:
+          - clone the repo and in you root directory and type following:
+              npm install
+              npm run dev
+          - open github codespaces and then run:
+              npm run dev
 
     
 # Tech Stack:
