@@ -2,6 +2,7 @@
     - This project is a simple Frontend based project showing the management of an employee daashboard. 
     - My primary aim for creating this project is to showcase my skills of managing login and auth control.
     - The UI has been kept simple and clean.
+    - The site stores employee data in local storage of machine, instead of a database.
     - I hope whoever is reading this will like this project.
 
     *** To run ***
