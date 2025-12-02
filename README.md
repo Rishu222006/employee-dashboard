@@ -13,6 +13,9 @@
           - open github codespaces and then run:
               npm run dev
 
+## Notice:
+
+***Due to some bug the project is currently not working.*** 
     
 # Tech Stack:
     - HTML
