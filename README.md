@@ -26,6 +26,7 @@
 
 # File Structure:
 
+```
 📦 employee_dashboard
 ├── eslint.config.js
 ├── index.html
@@ -65,6 +66,7 @@
     └── 📂 utils
         ├── employees.json
         └── localstorage.jsx
+```
 
 
 ## Directory Structure Explanation
